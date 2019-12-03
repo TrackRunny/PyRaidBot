@@ -1,3 +1,21 @@
+"""
+PyRaidBot - Discord bot
+Copyright (C) 2019 TrackRunny
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+"""
+
 #!/usr/bin/env python3
 
 # - Importing all needed modules needed in the Main bot file.
@@ -7,14 +25,15 @@ from discord.ext import commands
 
 # - PUT YOUR DISCORD ACCOUNT ID HERE, DO NOT PUT YOUR ACCOUNT ID IN QUOTES!
 # - EXAMPLE: account_id = 546812331213062144
-account_id = "PUT YOUR DISCORD ACCOUNT ID HERE"
+account_id = 546812331213062144
 
 # - Information for our client (bot)
-client = commands.Bot(command_prefix="r!", owner_id=account_id, case_insensitive=False, self_bot=False)
+client = commands.Bot(command_prefix="s!", owner_id=account_id, case_insensitive=False, self_bot=False)
 client.remove_command('help')
+valid = "TrackRunny#3900"
 line_divide = "\n———————————————————————————————"
 
-bot_token = ""
+bot_token = "NjQzMjE1OTUwMzA4NTczMTk1.XciQIQ.x8ycRajHZBu0A3KcyDjfgX5vLrA"
 
 # - When bot is ready a status message will be printed to the console.
 @client.event
