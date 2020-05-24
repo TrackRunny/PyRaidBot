@@ -80,4 +80,3 @@ This project is licensed under the GPLv3.
 ## → Questions / Contact me
 
 * Discord Account: `TrackRunny#0001`
-* Email: `trackrunny@protonmail.com`
